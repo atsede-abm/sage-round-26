@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int age =20;
-if(age>=18){
-		cout<<"adult";
+	for(int i=1;i<=5;i++){
+			cout<<i<<endl;
+		if(i==2)break;
+		
 	}
 	return 0;
-}
+	}
