@@ -16,7 +16,7 @@ int main(){
     cout<<" enterd your num 2"<<endl;
     
  	cin>>num2;
- 	aver=num1/num2;
+ 	aver=(num1+num2)/2;
 
  
  cout<<aver <<endl;
