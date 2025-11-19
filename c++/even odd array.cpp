@@ -6,7 +6,7 @@ int main(){
 	int even=0;
 	int odd=0;
 	
-	cout<<"enter your name";
+	cout<<"enter your num";
 	for(int i=0; i<7;i++){
 		cin>>num[i];
 		

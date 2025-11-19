@@ -13,9 +13,9 @@ int sum(int A,int B){
 int main(){
 	int A , B;
 	
-	cout<<"enter your num1"<<endl;
+	cout<<"enter your A"<<endl;
 	cin>>A;
-	cout<<"enter your num2"<<endl;
+	cout<<"enter your B"<<endl;
     cin>>B;
     cout<< "sum is "<<sum(A , B);
 	return 0;

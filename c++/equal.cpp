@@ -1,27 +1,25 @@
 #include <iostream>
 using namespace std;
 
-void largest(int num1, int num2){
-	if(num1<num2){
-		cout<<num1;
-	
+string max(int num1, int num2){
+	if(num1>num2){
+		
+	return to_string(num1);
 	}
 else if(num1==num2){
 	cout<<"equal";
 }
    else{
-   	cout<<num2;
+   return to_string(num2);
    	
-   
 }
-			
-
+	
 	}
 	
 int main(){
 	
-largest(10,0);
+max(10,10);
 
 
-	
+	return 0;
 }
