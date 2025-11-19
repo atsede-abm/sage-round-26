@@ -7,17 +7,17 @@ int main(){
 	int odd=0;
 	
 	cout<<"enter your name";
-	for(int i=1; i<7;i++){
+	for(int i=0; i<7;i++){
 		cin>>num[i];
 		
 		
 	}
-	for(int i=1;i<7;i++){
+	for(int i=0;i<7;i++){
 		if(num[i]%2==0){
-			even++;
+			even+1;
 			
 		}
-		else{odd++;
+		else{odd+1;
 		}
 		
 	}
