@@ -18,7 +18,7 @@ else if(num1==num2){
 	
 int main(){
 	
-max(10,10);
+max(10,1);
 
 
 	return 0;
