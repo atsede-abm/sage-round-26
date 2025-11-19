@@ -11,7 +11,7 @@ int product(int A, int B){
 
 
 int main(){
-	int A , B;
+	int A =5, B =6;
 	
 	cout<<"enter your A"<<endl;
 	cin>>A;
