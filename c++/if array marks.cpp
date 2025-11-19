@@ -20,7 +20,7 @@ int main(){
 	 
 	 }
 	 
-	cout<<"the largest number is " <<largest <<endl; 
+	cout<<" the largest number is " <<largest <<endl; 
  
  
  
