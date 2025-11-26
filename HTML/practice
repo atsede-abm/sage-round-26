@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <title> home page </title>
+    
+</head>
+<body> 
+    <h1> well come to my page</h1>
+    <p> this is my first practice</p>
+    <a href ="www.w3schools.com"  target="_blank">learn here</a>
+</body>
+</html>
