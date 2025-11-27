@@ -1,0 +1,15 @@
+h5{    color: blue;
+    background-color: yellow;
+}
+.title{
+    color :brown;
+}
+#titlewithid{
+    color :green;
+}
+p,h5{
+    color :salmon
+}
+div a{
+    color:blueviolet
+}
