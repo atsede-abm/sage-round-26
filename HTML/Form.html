@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Form </title>
+    </head>
+    <body> 
+        <form action="" method="get">
+            <lable for="name"> username:</lable>
+            <input type="text" id="name" name="username" placeholder="enter your username"/>
+            <br/>
+            <lable for="pwd"> password:</lable>
+            
+            <input type="password" id="pwd" name="password" placeholder="enter your password"/>
+            <br/>
+            <lable for="email" > email : </lable>
+             <input type="email" name="email"  placeholder="enter your email"/>
+             <br/>
+            <lable> male: </lable>
+            
+            <input type="radio" name="gender" value="male"/>
+            <lable> female: </lable>
+            
+            <input type="radio" name="gender"  value="female"/>
+           
+            
+             <br/>
+            <p>hobbys</p>
+            <lable>music :</lable>
+            <input type="checkbox" name="hobbys" value="music"/>
+            <lable>coding :</lable>
+            <input type="checkbox" name="hobbys" value="coding"/>
+            <br/>
+            <lable> country :</lable>
+            <select name="country" value="required">
+                <option value="">select country</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="USA">USA</option>
+                <option value="uk">uk</option> 
+            </select> 
+            <br/>
+            <label> message: </label>
+            <textarea name="message" rows="5"cols="10"> </textarea>
+            <br/>
+            <lable>age :</lable>
+            <input type="number" min="0" max="10">
+            <button type="submit"> submit</button>
+            <button type="sreset"> reset</button>
+        </form>
+    </body>
+</html>
