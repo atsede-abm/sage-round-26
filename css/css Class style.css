@@ -1,33 +1,41 @@
-h1{
-    background-color:Tomato;
+h1 {
+    background-color: Tomato;
     color: rgba(250, 250, 250, 0.9);
     /* border: 5px dashed black; */
-    background-image:url(./OIP.webp);
+    background-image: url(./OIP.webp);
     background-repeat: no-repeat;
     background-size: cover;
-border-width: 5px;
-border-color: blue red;
-border-style: dotted dashed solid double;
-   text-align: center; 
-   text-decoration: line-through red solid 2px;
-text-transform: lowercase;
+    border-width: 5px;
+    border-color: blue red;
+    border-style: dotted dashed solid double;
+    text-align: center;
+    text-decoration: line-through red solid 2px;
+    text-transform: lowercase;
 
 }
-p{
+
+p {
     text-indent: 5px;
     letter-spacing: 1px;
     line-height: 35px;
-    text-shadow: 2px 2px 0.1px greenyellow ;
+    text-shadow: 2px 2px 0.1px greenyellow;
     text-align: justify;
 }
-.div1{
-    background-color: orange ;
+
+.div1 {
+    background-color: orange;
     height: 1000px;
     width: 100px;
     display: inline-block;
+    left: 20px;
+
+    position: relative;
+    z-index: 0;
+
 
 }
-.div2{
+
+.div2 {
     background-color: hotpink;
     height: 100px;
     width: 100px;
@@ -35,28 +43,101 @@ p{
     text-transform: uppercase;
     text-align: center;
     position: relative;
+    z-index: 4;
 }
-.div2_1{
+
+.div2_1 {
     background-color: aqua;
     position: absolute;
     top: 30px;
     left: 30px;
 
 }
-.div2_2{
+
+.div2_2 {
     background-color: blanchedalmond;
 
 }
-.div3{
+
+.div3 {
     background-color: blueviolet;
     display: inline-block;
     position: fixed;
     bottom: 5px;
     right: 5px;
 }
-.div4{
+
+.div4 {
     background-color: chartreuse;
     display: inline-block;
     position: sticky;
     top: 20px;
 }
+
+.Spacing {
+    background-color: fuchsia;
+    border: 5px dashed black;
+    padding: 10px 15px;
+    margin: 5px 15px;
+    /* width: 200px; */
+    max-width: 300px;
+    min-width: 100px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-latin;
+}
+
+.pseudo:link{
+    color: aqua;
+}
+
+.pseudo:visited{
+    color:rgb(17, 255, 0) ;
+}
+.pseudo:hover{
+    color: rgb(84, 15, 195);
+
+}
+.pseudo:active{
+    color:hotpink 
+}
+P::first-line{
+    color: rgb(242, 35, 242);
+}
+P::first-letter{
+    color: rgb(12, 236, 210);
+    font-size: 30px;}
+
+h2::before {
+   content: 'Abebe ';}
+
+   h2::after {
+   content: ' zene';}
+
+   h2::selection {
+   background-color: hotpink;
+   color: white;
+   
+}
+@media screen  and (max-width: 600px) {
+    body{
+        background-color:aquamarine; 
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:1000px) {
+    body{
+        background-color: brown;
+
+    }
+}
+@media screen and (min-width: 1001px) {
+    body{
+        background-color: gold;
+    }
+} 
