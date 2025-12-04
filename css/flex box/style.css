@@ -1,0 +1,33 @@
+.Box{
+    background-color:hotpink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: start;
+  
+}
+
+.c1{
+    background-color:aqua;
+    width: 100px;
+    
+}
+.c2{
+    background-color:burlywood;
+    width: 100px;
+}
+.c3{
+    background-color:orange ;
+    width: 100px;
+}
+.c4{
+    background-color:tomato;
+    width: 100px;
+}
+.c5{
+    background-color:chartreuse;
+    width: 100px;
+   
+}
