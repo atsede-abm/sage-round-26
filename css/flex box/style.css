@@ -5,29 +5,46 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 100px;
-  align-items: start;
+  align-items: center;
   
 }
 
 .c1{
     background-color:aqua;
     width: 100px;
+    order: 1;
+    align-self: stretch;
+    flex-shrink: 2;
     
 }
 .c2{
     background-color:burlywood;
     width: 100px;
+    order: 2;
+    align-self: center;
+    flex-grow: 1;
+    
 }
 .c3{
     background-color:orange ;
     width: 100px;
+    order: 3;
+    align-self:self-end ;
+
+    
 }
 .c4{
     background-color:tomato;
     width: 100px;
+    order: 4;
+    align-self: self-start;
+    
 }
 .c5{
     background-color:chartreuse;
     width: 100px;
+    order: 5;
+    align-self: self-end;
+    
    
 }

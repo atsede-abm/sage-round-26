@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+    
+}
+.log img{
+    width: 154px;
+}
+.header-linkfirst{
+  display: flex;
+  gap: 50px;
+}
+.header-link{
+    color: black;
+    text-decoration: none;
+    gap: 50px;
+}
+.loginbtn{
+    color: #4CAF4F;
+    text-decoration: none;
+}
+.btn{
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+     border-radius: 6px;
+     text-decoration: none;
+     gap: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+
+}
+.hero-box{
+    display: flex;
+    padding: 96px 144px;
+    gap: 104px;
+    align-items: center;
+
+
+
+
+}
+.hero-img{
+
+    width: 391px;
+    
+}
+.hero-left{
+    order: 2;
+}
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+
+}
+span{
+    color: #4CAF4F;
+}
+.text{
+    
+    width: 627px;
+    color: #4D4D4D;
+    font-size: 64px;
+
+}
+.text-2{
+   
+    color: #717171;
+    height: 24px;
+    font-size: 16px;
+
+}
+.Register-btn{
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    gap: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    align-self: self-start;
+
+}
+.inlineBox-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+.inlineBox-text{
+   gap: 8px;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+}
+.inline-title{
+    color: #4D4D4D;
+    font-size: 36px;
+    
+
+}
+.inline-p{
+    color: #717171;
+    font-size: 16px;
+    align-items: self-start;
+
+}
+.inlineBox-icon{
+    display: flex;
+    justify-content: space-between;
+}
