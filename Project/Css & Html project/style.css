@@ -669,3 +669,127 @@ margin-right: 140px;
     bottom: 4px;
     left: 5px;
 }
+.subs{
+     display: flex;
+     align-items: center; 
+     height: 300px;
+     width: 1440px;
+     flex-direction: column;
+    background-color: #F5F7FA;
+    padding: 32px 32px;
+    gap: 32px;
+
+}
+.pell{
+    width: 887px;
+    height: 152px;
+    font-size: 64px;
+    text-align: center;
+    background-color: #F5F7FA;
+}
+.demo-arrow{
+    display: flex;
+flex-direction: row;
+height: 52px;
+width: 178px;
+background-color: #4CAF4F;
+align-items: center;
+padding: 14px 32px 14px 32px;
+border-radius: 4px;
+}
+.get-demo{
+        text-align: center;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+}
+
+.arrowonee{
+    height: 16px;
+    width: 16px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+}
+ .blak-box{
+            display: flex;
+            height: 328px;
+            width: 1440px;
+            background-color: #263238;
+            flex-direction: row;
+            gap: 125px;
+        }
+.black-one{
+   background-color: #263238; 
+   height: 189.67px;
+   width: 350px;
+   gap: 40px;
+   margin-top: 70px;
+   margin-left: 70px;
+}
+.copyb{
+    color: #FFFFFF;
+        background-color: #263238;
+
+}
+.allr{
+    color: #FFFFFF;
+  background-color: #263238;
+}
+.black-two{
+    display: flex;
+    flex-direction:row;
+    background-color: #263238;
+   width: 635px;
+   height: 200px;
+   margin-top: 70px;
+      gap: 30px;
+}
+.blackone-two{
+    color: #FFFFFF;
+    background-color: #263238;
+    width: 160px;
+    height: 200px;
+    gap: 24px;
+}
+.com-p{
+    background-color: #263238;
+    width: 160px;
+    height: 28px;
+}
+.com-pp{
+    background-color: #263238;
+}
+
+.blacktwo-two{
+    color: #FFFFFF;
+    background-color: #263238;
+    width: 160px;
+    height: 200px;
+    gap: 24px;
+}
+.com-p{
+    background-color: #263238;
+    width: 160px;
+    height: 28px;
+}
+.com-pp{
+    background-color: #263238;}
+ .blackthree-two{
+    color: #FFFFFF;
+    background-color: #263238;
+    width: 160px;
+    height: 200px;
+    gap: 24px;
+}
+.email-icon{
+    display: flex;
+        background-color: #263238;
+        flex-direction: row;
+        width: 255px;
+
+}
+  .com-ppp{
+    color: #FFFFFF;
+    background-color:#717171 }
+    .iconlogo{
+        background-color: #263238;}
+    
