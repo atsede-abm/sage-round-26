@@ -1,5 +1,5 @@
 
-export default function List(){
+export default function List(props){
     let cars = ["Toyota","BMW","Ford","Ford"]
     return<>
     <p className="listColor" style={{backgroundColor:"hotpink"}}>List of cars</p>
@@ -8,5 +8,8 @@ export default function List(){
             return <li key={index} >{car}</li>
         })}
     </ul>
+    <button onClick={()=>{
+        props.setCount1(props.count1+1)
+    }}>change from list</button>
     </>
 }

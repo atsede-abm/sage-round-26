@@ -1,24 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect} from "react";
 
-function Count() {
-  const[count,setCount]=useState(0)
+function Count(props) {
+  
+  const[count2,setCount2]=useState(0)
+  useEffect(()=> {
+    console.log("use effect from count comp")
+  },[props.count1])
   return (
-    <div className="setColor">
-      <h1>{count}</h1>
-      
+    <div>
+      <h1 className="setColor">count one: {props.count1}</h1>
+      <h1 className="setColor">count two: {count2}</h1>
       <button onClick={()=>{
-        setCount(count+1);
-        console.log(count)
-        }}>Add</button>
+       props.setCount1(props.count1 +1)
+        props.setCount1(props.count1+1);
+        
+        }}>Add on count 1</button>
        
-        <button onClick={()=>{
-          setCount(count-1);
-          console.log(count)
-        }}>Substract</button>
+        <button className="btn-color" onClick={()=>{
+          setCount2(count2+1);
+         
+        }}>add on count 2</button>
         
         <button onClick={()=>{
-          setCount(0);
-          console.log(count)
+          props.setCount1(0);
+          
         }}>Reset</button>
     </div>
   );
