@@ -7,7 +7,7 @@ export default function Products(){
         <h1> Products Page</h1>
         <p> Fruits</p>
              <ul>
-        <li><Link>Apple</Link></li>
+        <li><Link to="/Products/Apple">Apple</Link></li>
         <li><Link>Banana</Link></li>
         <li><Link>Orange</Link></li>
         <li><Link>Mango</Link></li>
