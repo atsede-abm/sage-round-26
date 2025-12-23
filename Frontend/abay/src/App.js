@@ -13,7 +13,7 @@ function App() {
          }}>Add</button>
          <button onClick={()=>{
           dispach(decrement())
-         }}>Didu</button>
+         }}>Diduction</button>
           <button onClick={()=>{
           dispach(reset())
          }}>Reset</button> 
