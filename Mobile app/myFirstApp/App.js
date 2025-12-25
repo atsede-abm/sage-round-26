@@ -1,17 +1,25 @@
-import { View,Text,Image,TextInput,Button,ActivityIndicator, Switch} from "react-native-web"
+import { View,Text,Image,TextInput,Button,ActivityIndicator, Switch,ScrollView} from "react-native-web"
 
 import { useState } from "react"
+import Card from'./Card'
 
 export default function App(){
     const [x,setX] = useState(0)
-    return <View>
+    const[ison,setIsOn]=useState(false)
+    return <ScrollView>
+    <View style={{alignItems:'center', margin:10}}>
           <Text style={{flex:1,
             justifyContent:'center',
-            textAlign:'center',margin:10}}> Hiiii</Text>
-            <Text style={{textAlign:'center'}}> the value of X is: X</Text>
+            textAlign:'center',margin:10,
+            fontSize:40}}> Hiiii</Text>
+            <Text style={{color:'blue',
+              fontSize:30
+            }}> Styled Text</Text>
+            <Text style={{textAlign:'center'}}> the value of X is: {x}</Text>
           <Text style={{flex:1,
             justifyContent:'center',
             textAlign:'center'}} > Welcome</Text>
+            <Switch style={{ justifyContent:'center',}} value={ison}onValueChange={setIsOn}/>
           <Image
           source={{uri:"https://tse2.mm.bing.net/th/id/OIP.cs6mBMHprPT1tSXS-Q7ELgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",}}
           style={{width: 600,height:500}}/>
@@ -20,10 +28,16 @@ export default function App(){
           style={{borderWidth:2,padding:10,margin:10}}
           />
           <Button title='Submit' onPress={()=>{
-            alert 
+            setX(5)
           }}/>
-          <ActivityIndicator size='large' color="red" />
-          <Switch/>
-            
+          <ActivityIndicator size='large' color="black" />
+          <View style={{ flex:1 , flexDirection:'row',margin:5,justifyContent:'space-evenly'}}>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+  </View>
                </View>
+               </ScrollView>
 }
