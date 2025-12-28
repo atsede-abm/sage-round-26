@@ -20,6 +20,8 @@ export default function App (){
 // <SafeAreaView>
 //   <ScrollView>
     <View  style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'gray'}}>
+      <image source ={require("./image.png")}
+      style={{ margin:'10',width: 200, hieght: 200 }}/>
       <Text> Your First Name :</Text>
       <TextInput placeholder='Enter Your Name'
       value={firstname}
