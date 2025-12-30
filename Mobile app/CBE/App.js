@@ -6,6 +6,9 @@ import DetailsScreen from './screen/DetailsScreen';
 import AboutScreen from './screen/AboutScreen';
 import { Text } from 'react-native';
 import ScrollViewExampleScreen from './screen/ScrollViewExampleScreen';
+import FlatListScreen from './screen/FlatListScreen'
+import FetchDataFromApiScreen from './screen/FetchDataFromApiScreen';
+import FetchPhotoFromApiScreen from './screen/FetchPhotoFromApiScreen';
 
 export default function App() {
    const stack =createNativeStackNavigator()
@@ -23,7 +26,9 @@ export default function App() {
    <stack.Screen name='Details' component={DetailsScreen}/>
    <stack.Screen name='About' component={AboutScreen}/>
    <stack.Screen name='ScrollView' component={ScrollViewExampleScreen}/>
-
+    <stack.Screen name='FlatList' component={FlatListScreen}/>
+    <stack.Screen name='Fetch' component={FetchDataFromApiScreen}/>
+    <stack.Screen name='Photo' component={FetchPhotoFromApiScreen}/>
    </stack.Navigator>
 
   </NavigationContainer>

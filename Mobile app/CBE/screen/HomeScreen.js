@@ -16,6 +16,14 @@ export default function HomeScreen({navigation}){
 
          <Button title='Scroll' onPress={()=>
         {navigation.navigate('ScrollView')}}/>
+          
+          <Button title='Flat List' onPress={()=>
+        {navigation.navigate('FlatList')}}/>
+       
+        <Button title='Fetch' onPress={()=>
+        {navigation.navigate('Fetch')}}/>
 
+         <Button title='Photo' onPress={()=>
+        {navigation.navigate('Photo')}}/>
     </View>
 }
