@@ -1,0 +1,46 @@
+.header-linkfirst {
+
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.header-link {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(240, 213, 213);
+   
+    
+}
+.header-link:hover{
+    text-decoration: underline;
+    color: bisque;
+    font-size: 20px;
+}
+
+.header {
+    width: 80%;
+    height: 50px;
+    z-index: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    position: fixed;
+    color: rgb(240, 203, 203);
+    background-color: darkslategray;
+    padding: 0 20px;
+}
+
+.card-Profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: azure;
+}
