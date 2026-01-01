@@ -14,7 +14,7 @@ export default function Calculator(){
 <div>
     <input  className="btn" type="button" value="C" onClick={e=>setValue(" ")}/>
     <input className="btn" type="button" value="DE" onClick={e=>setValue(value.slice(0,-1))}/>
-    <input className="btn" type="button" value="." onClick={e=>setValue(value+e.target.value)}/>
+    <input className="btn2" type="button" value="." onClick={e=>setValue(value+e.target.value)}/>
     <input className="btn" type="button" value="+" onClick={e=>setValue(value+e.target.value)}/>
 </div>
 <div>

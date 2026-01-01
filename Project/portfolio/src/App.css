@@ -36,10 +36,7 @@ font-size: 32px;
   border-radius: 20px;
   box-shadow:0 0 10px rgb(153, 89, 222);
 }
-.profile-p{
 
-  
-}
 .skills-a{
 padding: 5px;
 margin: 8px;
@@ -55,16 +52,24 @@ border-radius: 8px;
   border-radius: 20px;
   font-weight:700;
 }
-.footer-box2{
+ .btn:hover{
+       background-color:#4ea8f1;
+ } 
+
+.footer-box2 form{
   display: flex;
   justify-content: space-around;
-  
+  background-color: #a14c85;
 }
+
+
+
 .hero{
   text-align: center;
 }
 .card-skill{
   text-align: center;
+  border: 1px solid white;
 }
 .card{
   display: flex;

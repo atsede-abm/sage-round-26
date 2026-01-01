@@ -20,7 +20,7 @@ export default function Contact(){
                     <form>
                       <label for='email'> Email </label>
                       <input id='email' type='email'/>
-                      <label> Message </label>
+                      <label className="footer-m"> Message </label>
                       <textarea cols={60} rows={5}></textarea>
                     </form>
                     <button className="btn"> Submit </button>
