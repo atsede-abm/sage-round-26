@@ -24,7 +24,10 @@ export default function Contact(){
                       <label className="footer-m"> Message </label>
                       <textarea className="footer-c" cols={60} rows={5}></textarea>
                     </form>
-                    <button className="btn"> Submit </button>
+                    
+     <button className="btn" onClick={()=>{
+            alert('Email Sent Successfully')
+        }}> Submit</button>
                  </div>
                  </div>
                  </div>

@@ -19,7 +19,7 @@ import '../home.css'
              </div>
              <div className='profile-p'>
 
-            <h2> Hi, I'm Atsede </h2>
+            <h2 className='hero-pro'> Hi, I'm Atsede </h2>
             <h4>I'm website Developer</h4>
             <p>
                 I am a beginner Web developer focused on building responsive <br/>

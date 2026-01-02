@@ -147,7 +147,9 @@ color:rgb(151, 215, 194);
   padding: 0 20px;
   color: #fff;
   margin-top: 100px;
-
+}
+html{
+  scroll-behavior: smooth;
 }
 .pro-p{
 display: flex;
