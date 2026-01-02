@@ -1,18 +1,18 @@
 import React from "react";
 
 
-function Projects(){
+function Projects() {
 
-    return( <>
-        <div>
+    return (<div id='projects'>
+    <div >
             <h1 className="pro"> Projects</h1>
-            </div>
-            <div className="proo">
+        </div>
+        <div className="proo">
             <div className="pro-p">
                 <h4>portfolio website</h4>
                 <p>personal portfolio using React</p>
-   </div>
-            
+            </div>
+
             <div className="pro-t">
                 <h4>todo APP</h4>
                 <p>Task manager app</p>
@@ -22,13 +22,13 @@ function Projects(){
                 <h4>Mobile APP</h4>
                 <p>React Native project</p>
             </div>
-            </div>
-        </>
+        </div>
+    </div>
     )
-        
-}       
-           
-                
-    export default Projects;
-        
-    
+
+}
+
+
+export default Projects;
+
+

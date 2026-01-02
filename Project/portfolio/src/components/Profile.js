@@ -8,7 +8,7 @@ import { faLinkedin,faGithub,faTiktok,faWhatsapp } from '@fortawesome/free-brand
 import '../home.css'
  function Profile() {
     return(
-        <div className='card-Profile'>
+        <div className='card-Profile' id='profile'>
             <div className='profile'>
             <img
             className='profile-img'
@@ -22,10 +22,11 @@ import '../home.css'
             <h2> Hi, I'm Atsede </h2>
             <h4>I'm website Developer</h4>
             <p>
-                I am a beginner React developer focused on building responsive <br/>
+                I am a beginner Web developer focused on building responsive <br/>
                 and user-friendly websites. I am continuously learning modern web <br/>
                 technologies and enjoy turning ideas into interactive web experiences.
             </p>
+            <button className="btn-c"> Contact me </button>
             <div className='icon'>
                 <FontAwesomeIcon icon={faLinkedin} className="social-icon"/>
                  <FontAwesomeIcon icon={faGithub} className="social-icon" />

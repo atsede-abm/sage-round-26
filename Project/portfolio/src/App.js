@@ -16,6 +16,8 @@ function App() {
         <Profile />
         <Skills />
 
+
+
         <Projects />
       </div>
       <Contact />

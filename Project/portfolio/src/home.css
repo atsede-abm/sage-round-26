@@ -5,36 +5,32 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    
-
 }
-
 .header-link {
     text-decoration: none;
     margin: 20px;
-    color: rgb(240, 213, 213);
-   
-    
+    color: rgb(240, 213, 213); 
+    top: 0;   
 }
 .header-link:hover{
     text-decoration: underline;
     color: bisque;
-    font-size: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 30px #4ea8f1 ;
 }
 
 .header {
-    width: 80%;
-    height: 50px;
-    z-index: 1000px; 
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     top: 0;
+    left: 0;
     position: fixed;
     color: rgb(240, 203, 203);
-    background-color: darkslategray;
-    padding: 0 20px;
+    background-color: slateblue;
+    padding:15px 9%;
 }
 
 .card-Profile {
@@ -43,4 +39,6 @@
     justify-content: center;
     flex-direction: row;
     color: azure;
+    padding: 50px;
+    
 }

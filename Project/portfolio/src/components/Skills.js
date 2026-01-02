@@ -3,7 +3,7 @@ import React from "react";
 
 function Skills() {
 
-  return (  <>
+  return (  <div id='skill'>
      <h1 className="hero">Skills</h1>
 
     <div className="card-s">
@@ -40,7 +40,7 @@ function Skills() {
       </div>
       </div>
       </div>
-    </>
+    </div>
   )
 }
 export default Skills;
