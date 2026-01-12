@@ -3,6 +3,7 @@ import { StyleSheet,Text, View, TextInput, TouchableOpacity, FlatList } from 're
 
 export default function App() {
   const initialTodos = [
+<<<<<<< HEAD
   { id: '1', value: 'Exercise for 30 minutes' },
   { id: '2', value: 'Go to Church' },
   { id: '3', value: 'Clean the room' },
@@ -10,12 +11,25 @@ export default function App() {
   { id: '5', value: 'Read a book' },
   { id: '6', value: 'Practice JavaScript' },
   { id: '7', value: 'Buy groceries' },
+=======
+  { id: '1', value: 'Go to Church' },
+  { id: '2', value: 'Buy groceries' },
+  { id: '3', value: 'Finish homework' },
+  { id: '4', value: 'Clean the room' },
+  { id: '5', value: 'Read a book' },
+  { id: '6', value: 'Practice JavaScript' },
+  { id: '7', value: 'Exercise for 30 minutes' },
+>>>>>>> 1121a0d9456d4bc031ef4670654a9e73f2fd90b1
   { id: '8', value: 'Call a friend' },
   { id: '9', value: 'Prepare dinner' },
   { id: '10', value: 'Plan tomorrow’s tasks' },
 ];
   const [task, setTask] = useState('')
+<<<<<<< HEAD
   const [tasks, setTasks] = useState(initialTodos)
+=======
+  const [tasks, setTasks] = useState('initialTodos')
+>>>>>>> 1121a0d9456d4bc031ef4670654a9e73f2fd90b1
 
   const addTask = () => {
     if (task.trim()=== '')return;
